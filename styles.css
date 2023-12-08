@@ -1,0 +1,98 @@
+.navitem {
+  display: inline-block;
+  background-color: black;
+  padding: 10px 20px;
+  color: goldenrod;
+}
+nav {
+  background-color: brown;
+}
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.change-on-hover {
+  position: absolute;
+  display: inline-block;
+  overflow: visible;
+  width: 100vw;
+  height: 100vh;
+  transition: opacity 0.3s ease-in-out;
+  top: 0;
+  left: 0;
+}
+/* .change-on-hover .day-night {
+  width: 100vw;
+  height: 100vh;
+  transition: opacity 0.3s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+} */
+
+#container:hover #day {
+  opacity: 0;
+}
+
+#container:hover body {
+  opacity: 1;
+}
+body {
+  background-color: black;
+  background-image: url(images/Night\ sky.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+#day {
+  background-image: url(images/bg3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+h1 {
+  text-align: center;
+  font-size: xx-large;
+  font-family: "Playfair Display", serif;
+  color: rgb(234, 176, 17);
+}
+pre {
+  text-align: left;
+  color: cyan;
+  font-family: "Josefin Sans", sans-serif;
+  margin: 0 40px 10px 0;
+}
+sub {
+  text-align: inherit;
+  color: blanchedalmond;
+}
+footer {
+  margin-top: 10%;
+  text-align: center;
+  color: bisque;
+}
+/* #night {
+  background-image: url(images/Night\ sky.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+} */
+
+h2 {
+  text-align: center;
+  font-size: xx-large;
+  color: bisque;
+}
+
+p {
+  text-align: center;
+  color: rgb(183, 231, 129);
+  font-size: xx-large;
+  font-style: oblique;
+  font-family: "Josefin Sans", sans-serif;
+}
